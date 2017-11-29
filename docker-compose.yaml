@@ -1,0 +1,14 @@
+version: '2'
+services:
+  mydt:
+    image: "mcchae/xfce-pyenv"
+    hostname: "mydt"
+    environment:
+      VNC_GEOMETRY: "1920x1080"
+    ports:
+     - "33899:3389"
+     - "60811:6081"
+     - "58888:8888"
+    volumes:
+     - ${HOME}/dhv/Playdata/root:/root
+     - ${HOME}/dhv/Playdata/work:/root/work
