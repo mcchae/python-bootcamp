@@ -12,3 +12,5 @@ services:
     volumes:
      - ${HOME}/dhv/Playdata/root:/root
      - ${HOME}/dhv/Playdata/work:/root/work
+#     - //c/Users/Playdata/dhv/root:/root
+#     - //c/Users/Playdata/dhv/work:/root/work
